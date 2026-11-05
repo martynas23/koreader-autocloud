@@ -1,7 +1,7 @@
 local _ = require("gettext")
 return {
     name = "autocloud",
-    fullname = _("Auto-open cloud storage"),
-    description = _([[Opens Cloud storage straight into your server (e.g. Koofr) as soon as Wi-Fi connects.]]),
-    version = "v1.0.0",
+    fullname = _("Auto cloud"),
+    description = _([[When Wi-Fi connects, open cloud storage (e.g. Koofr) or download everything in a cloud inbox folder, then delete or move the downloaded files in the cloud.]]),
+    version = "v2.0.0",
 }
